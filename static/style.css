@@ -1,0 +1,143 @@
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+    background: #3f496a;
+}
+
+.h3  {
+    color: #ffc107;
+}
+
+.hero {
+    min-height: 500px;
+    height: 70vh;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,.5),
+            rgba(0,0,0,.5)
+        ),
+        url("../static/assets/hero.png");
+
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-overlay {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-overlay {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lead {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2 { color: white; 
+    font-size: 48px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-align: center;
+    margin: 0;} 
+
+ p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.facilities-subtitle {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.hero p,
+#about p,
+#contact p,
+footer p {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+     font-size: 18px;
+}
+
+.card-body { 
+    background: #f8f9fa; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    color: black;
+}
+
+.card-description {
+    color: #212529;
+    font-size: 14px;
+    text-shadow: none;
+}
+
+/* .section-break {
+    text-align: center;
+    margin: 30px 0;
+    position: relative;
+}
+
+.section-break::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 70%;
+    border-top: 2px solid #dee2e6;
+}
+
+.section-break span {
+    background: white;
+    padding: 0 30px;
+    position: relative;
+    z-index: 1;
+    font-size: 1.5rem;
+}  */
+
+.section-divider {
+    height: 2px;
+    background: #dee2e6;
+    margin: 40px 0;
+}
+
+label { 
+    color: white; 
+    font-size: 16px; 
+    margin-bottom: 5px;
+}
+ 
+.footer {
+    background: #212529;
+    color: white;
+}
+
+#jc {
+    font-weight: bold;
+    color: #ffc107; /* Pickleball yellow */
+}
+
+/* .navbar-brand-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffc107;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand-text {
+        font-size: 1rem;
+    }
+} */

@@ -1,0 +1,245 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jersey City Pickleball Club</title>
+    <link rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="./static/style.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="static/assets/logo.png" alt="JCPC Logo" 
+      width="30" height="30" class="d-inline-block align-text-top me-2">
+      <span class="h3 mb-0">Jersey City Pickleball Club</span>
+    </a>
+  </div>
+</nav>
+
+
+<!---hero section--->
+<section class="hero">
+    <div class="hero-overlay">
+        <div class="container text-center text-white">
+            <h1 class="display-3 fw-bold">
+                Jersey City Pickleball Club
+            </h1>
+
+            <p class="lead">
+                Play. Compete. Connect.
+            </p>
+
+            <a href="/reservation" class="btn btn-warning btn-lg">
+                Book a Court
+            </a>
+        </div>
+    </div>
+</section>
+
+<hr class="section-divider">
+
+<!---about section--->
+<section id="about" class="section-padding">
+    <div class="row align-items-center"> 
+        <div class="col-lg-6"> 
+            <img src="./static/assets/about.png" 
+            class="img-fluid rounded shadow" alt="About Image"> 
+        </div> 
+
+        <div class="col-lg-6"> 
+            <h2>About Us</h2> 
+            <p> 
+                Jersey City Pickleball Club is a vibrant community where players of all skill levels come together to enjoy pickleball. 
+            </p> 
+            <p> 
+                Whether you're a beginner or an experienced competitor, you'll find a welcoming place to play, improve, and connect with others. 
+            </p> 
+        </div> 
+    </div>
+</section>
+<hr class="section-divider">
+
+<!---facilities section--->
+<section id="facilities" class="section-padding">   
+    <div class="text-center mb-5"> 
+        <h2>Our Facilities</h2> 
+        <p class="facilities-subtitle">Everything you need for an exceptional game.</p> 
+    </div> 
+    
+    <div class="row g-4">
+        <div class="col-md-3">
+            <div class="card h-60 shadow-sm">
+                <img
+                    src="./static/assets/court.png"
+                    class="card-img-top facility-img"
+                    alt="Professional Courts">
+
+                <div class="card-body text-center">
+                    <h5>Professional Courts</h5>
+                    <p class="card-description">
+                        Tournament-quality courts designed for
+                        competitive and recreational play whether 
+                        you're a beginner or an experienced player.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+  
+        
+         <div class="col-md-3">
+            <div class="card h-60 shadow-sm">
+                <img
+                    src="./static/assets/night_lighting.png"
+                    class="card-img-top facility-img"
+                    alt="Night Lighting">
+
+                <div class="card-body text-center">
+                    <h5>Night Lighting</h5>
+                    <p class="card-description">
+                       State-of-the-art LED lighting ensures a bright and 
+                       enjoyable playing experience, 
+                       allowing members to play comfortably day or night.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card h-60 shadow-sm">
+                <img
+                    src="./static/assets/changing_rooms.png"
+                    class="card-img-top facility-img"
+                    alt="Changing Rooms">
+
+                <div class="card-body text-center">
+                    <h5>Changing Rooms</h5>
+                    <p class="card-description">
+                        Modern changing facilities provide a comfortable space 
+                        to prepare for your game and unwind after an exciting match.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-md-3">
+            <div class="card h-60 shadow-sm">
+                <img
+                    src="./static/assets/free_parking.png"
+                    class="card-img-top facility-img"
+                    alt="Free Parking">
+
+                <div class="card-body text-center">
+                    <h5>Free Parking</h5>
+                    <p class="card-description">
+                        Convenient complimentary and free parking is available for all 
+                        members and guests, offering easy access to our facilities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr class="section-divider">
+
+
+<!---call to action section--->
+<section id="contact" class="section-padding">
+    <div class="row">
+        <div class="col-lg-6">
+            <h2>Keep In Touch</h2>
+            <p>
+                Find us in Jersey City and start your
+                health journey with us.
+            </p>
+            <p>
+                Email: info@jerseycitypickleball.com
+            </p>
+            <p>
+                Phone: (123) 456-7890
+            </p>
+        </div>
+  
+
+    <div class="col-lg-6">
+        <form action="https://formspree.io/f/xzdqbgjq" method="POST">
+
+            <div class="mb-3">
+                <label for="name" class="form-label">
+                    Name
+                </label>
+                <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="Name"
+                    required>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">
+                    Email
+                </label>
+                <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="Email"
+                    required>
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">
+                    Message
+                </label>
+                <textarea
+                    class="form-control"
+                    id="message"
+                    name="Message"
+                    rows="5"
+                    required></textarea>
+            </div>
+
+            <button type="submit"
+                    class="btn btn-primary">
+                Send Message
+            </button>
+
+        </form>
+    </div>
+</section>
+<hr class="section-divider">
+
+<!--footer section--->
+<footer class="footer py-4">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0" id="jc">Jersey City Pickleball Club</p>
+                <p class="mb-0">
+                    Play. Compete. Connect.
+                </p>
+            </div>
+
+            <div class="col-md-6 text-center text-md-end">
+                <p class="mb-0">
+                    Email: info@jerseycitypickleball.com
+                </p>
+                <p class="mb-0">
+                    © 2026 All Rights Reserved
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body> 
+</html>
